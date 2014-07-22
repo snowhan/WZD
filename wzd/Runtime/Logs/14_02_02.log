@@ -1,0 +1,15 @@
+[ 2014-02-02T10:24:52+08:00 ] 127.0.0.1 /mobius/index.php/Index/contact
+ERR: 模板不存在[./Mobius/Tpl/Default/Index/contact.html]
+
+[ 2014-02-02T10:41:49+08:00 ] 127.0.0.1 /mobius/index.php/Index/cos
+ERR: 非法操作:cos
+
+[ 2014-02-02T10:41:59+08:00 ] 127.0.0.1 /mobius/index.php/Index/1
+ERR: 非法操作:1
+
+[ 2014-02-02T11:20:02+08:00 ] 127.0.0.1 /mobius/index.php
+ERR: 模板不存在[./Mobius/Lib/Widget/LatestNews/request.html]
+
+[ 2014-02-02T11:20:25+08:00 ] 127.0.0.1 /mobius/index.php
+ERR: 模板不存在[./Mobius/Lib/Widget/LatestNews/LatestNews.html]
+

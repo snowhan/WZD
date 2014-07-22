@@ -1,0 +1,78 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+    <head>
+    <title>问之道</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  charset="UTF-8">
+    <script src="/wzd/Public/js/jquery.js"></script>
+    <!-- Bootstrap -->
+    <link href="/wzd/Public/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/wzd/Public/css/main.css" rel="stylesheet" media="screen">
+    <link href="/wzd/Public/stylesheets/pc.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="/wzd/Public/js/js.js"></script>
+    </head>
+    <body class="login_container">
+        <div class="container">
+            <div class="row">
+            <!-- <div class="login_header">
+            <img class="span4 offset2" src="img/logo_header.png">
+            <img class="span4 " src="img/logo_text.png">
+            </div> -->
+                <div class="span6 offset3 login_book">
+                    <img src="/wzd/Public/img/login_book.png">
+                    <h3 class="login_title">登录</h3>
+                    <h3 class="register_title">注册</h3>
+                    <form class="form-horizontal login_form" action="__URL__/checklogin" method="post">
+                        <div class="control-group">
+                            <label class="control-label">邮箱</label>
+                            <div class="controls">
+                                <input type="text" placeholder="Email" name="username">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" >密码</label>
+                            <div class="controls">
+                                <input type="password" placeholder="Password" name="password">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                            <label class="checkbox">
+                            <!-- <input type="checkbox">记住密码 -->
+                            </label>
+                            <!-- <button type="submit" class="btn" name="login" value="登陆">登录</button> -->
+                                <input type="submit" name="login" value="登陆">
+                            </div>
+                        </div>
+                    </form>
+                    <form class="form-horizontal register_form" action="__URL__/checkreg" method="post">
+                        <div class="control-group">
+                            <label class="control-label" for="inputEmail" >邮箱</label>
+                            <div class="controls">
+                                <input type="text" id="inputEmail" placeholder="Email" name="username">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="inputPassword">密码</label>
+                            <div class="controls">
+                                <input type="password" id="inputPassword" placeholder="Password" name="password">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="inputPassword">重复密码</label>
+                            <div class="controls">
+                                <input type="password" id="repeatPassword" placeholder="repeatPassword" name="repassword">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                            <!-- <button type="submit" class="btn" name="login" value="注册">注册</button> -->
+                                <input type="submit" name="login" value="注册">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="/wzd/Public/js/bootstrap.min.js"></script>
+    </body>
+</html>

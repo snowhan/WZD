@@ -1,0 +1,30 @@
+/* line 1, ../../sass/pc-components/login.scss */
+.login_container {
+  background: url(../img/login_background.png) no-repeat fixed center;
+}
+/* line 3, ../../sass/pc-components/login.scss */
+.login_container .login_book {
+  margin-top: 200px;
+  height: 330px;
+}
+/* line 6, ../../sass/pc-components/login.scss */
+.login_container .login_book .login_title {
+  margin-top: -290px;
+  margin-left: 100px;
+}
+/* line 10, ../../sass/pc-components/login.scss */
+.login_container .login_book .register_title {
+  margin-top: -50px;
+  margin-left: 300px;
+}
+/* line 14, ../../sass/pc-components/login.scss */
+.login_container .login_book .login_form {
+  margin-left: -40px;
+  margin-top: 30px;
+  display: none;
+}
+/* line 19, ../../sass/pc-components/login.scss */
+.login_container .login_book .register_form {
+  margin-left: -40px;
+  margin-top: 30px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <foreach name="asks" item="v">
+                问题ID：<{$v.id}><br>
+                创建者：<{$v.creator.username}><br>
+                回答数：<{$v.replys}><br>
+                问题标题：<{$v.title}><br>
+                问题内容：<{$v.content}><br>
+                问题创建时间：<{$v.createtime}><br>
+                <a href="<{:U('Asks/asks_delete',array('ask_id'=>$v['id']))}>">删除问题</a>
+                <hr>
+                <br><br>
+            </foreach>
+        </div>
+    </body>
+</html>

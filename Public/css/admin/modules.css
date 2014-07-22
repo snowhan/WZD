@@ -1,0 +1,248 @@
+@CHARSET "UTF-8";
+.rightmain{		 
+    	position: relative;
+    	top: 0;
+    	left:0;
+    	padding:20px;
+    	height:1000px;
+	}
+	
+	.headitem{
+		width:960px;
+		height:30px;
+		margin-bottom:10px;
+		position:absolute;
+	}	
+	
+	.headitem div{
+		height:100%;
+		margin-right:10px;
+		width:280px;		
+	}
+	
+	.title{
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	
+	.alias{
+		position:absolute;
+		top:0;
+		left:270px;
+	}
+	
+	.publish{
+		position:absolute;
+		top:0;
+		left:540px;
+	}
+			
+	.searchword{
+		width:200px;
+		height:30px;
+		border: 1px solid #999999;    	    	
+    	-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;		    	    	
+	}
+	
+	.searchword:focus{
+		border-color:#2f7bbf;
+		box-shadow:0 0 8px rgba(47, 123, 191, 0.5);
+		outline:medium none;
+	}			
+	
+	.normalspan{
+		border:1px solid #999999;
+		border-right:none;
+		float:left;
+		text-align:center;
+		display:block;
+		height:30px;
+		width:50px;
+		line-height:33px;
+		color: #E7E7E7;
+		background:#2C2E2D;		
+		-moz-border-radius: 10px 0 0 10px;
+		-webkit-border-radius: 10px 0 0 10px;
+		border-radius:10px 0 0 10px;				
+	}
+	
+	#radiobox{		
+		cursor: pointer;
+		height:33px;
+		display:inline-block;
+		width:50px;
+		position:relative;
+		white-space: nowrap;		
+	}
+	
+	.checkhead{		    
+		height:33px;		  		   
+		width:50px;
+		position:absolute;
+    	left:35px;
+    	top:0;    	   		 
+	}
+	
+	.checktail{
+		display: inline-block;
+   		height: 33px;    	
+    	overflow: hidden;   
+    	width: 50px;
+    	position:absolute;
+    	left:0;
+    	top:0;    	
+	}
+	
+	.openbg{
+		background: url("/mobius/Public/img/admin/checkbox.gif") no-repeat scroll right bottom;			
+	}
+	
+	.opentail{
+		background: url("/mobius/Public/img/admin/checkbox.gif") no-repeat scroll left bottom;			
+	}
+	
+	.closetail{
+		background: url("/mobius/Public/img/admin/checkbox.gif") no-repeat scroll right top;
+	}
+	
+	.closebg{
+		background: url("/mobius/Public/img/admin/checkbox.gif") no-repeat scroll left top;
+	}	
+	
+	#checkmsg{
+		font-size:12px;
+		font-family:none;
+		font-weight:normal;
+		color:white;
+		position:absolute;
+    	left:12px;
+    	top:10px;
+	}
+	
+	#open{display:none;}
+	#close{display:none;}
+	
+	.bodyitem{
+		position:absolute;
+		top:75px;		
+	}
+	
+	.bodyselect{
+		width:250px;
+		position:absolute;
+		left:810px;
+	}
+	
+	.bodyselect div{		
+		width:100%;
+		margin-bottom:20px;
+	}
+	
+	.bodyselect div select{
+		width:200px;
+	}	
+	
+	.buttonbox{
+		width:100%;
+		position:relative;
+		height:300px;
+		text-align:center;
+	}
+		
+	.searchbutton{			   	   	   
+	    -moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		border-radius: 15px;
+	    box-shadow: 0 4px 2px -2px #999999, 0 1px rgba(255, 255, 255, 0.5) inset;	  
+	    cursor: pointer;
+	    float: left;
+	    font-size: 16px;
+	    font-weight: 700;
+	    height: 30px;
+	    line-height: 30px;	    
+	    padding-left: 28px;
+	    text-align: left;
+	    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	    vertical-align: middle;
+	    width: 101px;	    
+	}	
+	
+	.searchsubmit{
+		color: #004400;
+		border: 1px solid #006100;
+		background-color: #2CC78F;
+	    background-image: -moz-linear-gradient(center top , #2CC78F, #2CC78F);
+		position:absolute;
+		left:0px;
+	    top:40px;    	   
+	}
+	
+	.searchsubmit:hover{
+		background-color:#00DA00;
+		background-image: -moz-linear-gradient(center top , #00DA00, #00DA00);
+	}
+	
+	.searchreset{
+		position:absolute;
+		left:100px;
+	    top:0px;		    
+		border: 1px solid #006100;		
+	    background-image: -moz-linear-gradient(center top , #CCCCCC, #999999);
+    	border: 1px solid #666666;	   
+	}
+			
+	.searchreset:hover{
+		background-color:#DDDDDD;
+		background-image: -moz-linear-gradient(center top , #DDDDDD, #AAAAAA);
+	}
+	
+	.searchback{
+		position:absolute;
+	    left:100px;
+	    top:80px;
+		border: 1px solid #006100;		
+	    background-image: -moz-linear-gradient(center top , #CCCCCC, #999999);
+    	border: 1px solid #666666;	   
+	}
+	
+	.searchback:hover{
+		background-color:#DDDDDD;
+		background-image: -moz-linear-gradient(center top , #DDDDDD, #AAAAAA);
+	}
+	/*分界线*/
+	.itemtabs{
+		width:802px;
+		height:400px;	
+	}	
+	
+	.itemtabs select{
+		width:200px;
+	}
+	
+	#modtype{
+		width:250px;
+	}		
+	
+	#styletype{
+		width:250px;
+	}
+	
+	.introduce{
+		width:500px; 
+		height:500px; 
+		background:#E0E0E0;
+		position:absolute;
+		left:230px;
+		top:20px;
+		border:1px solid #7A7A7A;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		border-radius: 15px;
+		padding:20px;
+	}
+	
+	
+		

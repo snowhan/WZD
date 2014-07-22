@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+input,textarea{
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:900;		
+    	background: none repeat scroll 0 0 #FFFFFF;
+    	border: 1px solid #999999;
+    	border-left:none;
+    	border-radius: 2px;		
+	}
+	
+	input:focus,textarea:focus{
+		border-color:#2f7bbf;
+		box-shadow:0 0 8px rgba(47, 123, 191, 0.5);
+		outline:medium none;		
+	}
+	
+	input{
+		float:left;
+		width:400px;
+		height:33px;
+	}				
+	
+	.configitem{
+		position:absolute;	
+		width:600px;
+		height:450px;
+		left:400px;
+		top:10px;		
+		background:white;
+		padding:20px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		-moz-box-shadow: 0px 2px #CCC;
+		-webkit-box-shadow: 0px 2px #CCC;
+		box-shadow: 0px 2px #CCC;
+		filter: progid:DXImageTransform.Microsoft.Shadow(strength = 2, direction = 180, color = '#CCC');
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 2, Direction = 180, Color = '#CCC')";
+		opacity: 0.94;
+		-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 94);
+		filter: alpha(opacity = 94);		
+	}
+	
+	.configitem ul li{
+		margin-top:10px;
+		width:604px;
+		height:33px;		
+	}
+	
+	.configitem ul li .normalspan{
+		border:1px solid #999999;
+		border-right:none;
+		float:left;
+		text-align:center;
+		display:block;
+		height:33px;
+		width:200px;
+		line-height:33px;
+		color: #E7E7E7;
+		background:#2C2E2D;
+		border-radius:10px 0 0 10px;		
+	}
+		
+	.saveset{
+		border:none;
+		display:block;
+		background:url("/mobius/Public/img/admin/test.png") no-repeat;
+		height:38px;
+		width:100px;
+		border-radius:0px;
+		margin-left:130px;
+		margin-top:15px;
+	}
+	
+	.saveset:focus{
+		border-color:none;
+		box-shadow:none;
+	}

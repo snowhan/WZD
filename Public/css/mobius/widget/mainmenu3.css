@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+li{
+	list-style:none;	
+}
+
+.nav{
+	width:100%;	
+	height:60px;	
+	font-weight:bold;
+	line-height:36px;
+	text-align:center;
+	background:black;	
+}
+
+.topul{		
+	height:100%;
+	text-align:center;
+	float:left;
+	width:660px;			
+}
+
+.topul li{	
+	float:left;
+	padding-left:2px;
+	padding-right:2px;
+	text-align:center;
+}
+
+.topul a{
+	color:white;
+	
+	font-weight: bold;
+    height: 60px;
+   	width:auto;	
+    line-height: 60px;  
+    font-size:16px;
+    display:block;	  	
+}
+
+.topul a:hover{
+	background-color:#444444;
+	color:#ffffff;		
+	cursor:pointer	
+}
+
+.showli ul{
+	postion:absolute;	
+	width:100px;
+	height:300px;
+	border:1px solid red;
+	z-index:1000;	
+}
+
+.menulogo a{
+	background: url("/mobius/Public/img/mobius/mainmenu/header_logo.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: block;
+    height: 60px;
+    width: 60px;	
+}
+
+.headerbar{
+	height:60px;
+	width:232px;
+	float:right;		
+}
+
+.search{
+	font-size:14px;	
+	margin-top:16px;	
+}
+
+.search form{
+	height:25px;
+	border:1px solid #cccccc;
+	line-height:25px;	
+}
+
+.search .item{
+	width:30px;
+	height:100%;
+	background:#ffffff;
+	color:#444444;	
+}
+
+.search form input{
+	height:100%;	
+}
+
+.search form a{
+	background-color:#F5F5F5;
+	width:50px;
+	border-left:1px solid #cccccc;
+	color:#444444;		
+}
+
+
+
+
+

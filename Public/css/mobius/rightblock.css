@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+.rightblock{
+	border:1px solid #D4D4D4;
+	width:100%;
+	height:370px;
+	margin-bottom:10px;	
+}
+
+.index-hd{		
+	background-color:#5DA109;
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #D4D4D4;	
+}		
+	
+.index-hd span{
+	color:white;		
+	font-weight:bold;	
+	font-size:21px;
+	line-height:40px;
+	margin-left:10px;		
+}
+	
+.list-arrow{
+	background: url("/mobius/Public/img/mobius/icon_bg.png") no-repeat scroll -50px -125px rgba(0, 0, 0, 0);
+	height:12px;
+	width:12px;	
+	display: inline-block;
+	vertical-align: -2px;	
+}
+	
+.showblock{
+	padding:10px;
+	overflow:hidden;	
+}
+
+.showblock li{
+	width:100%;
+	height:16px;
+	margin-bottom:10px;
+	border-bottom: 1px dashed #D4D4D4;
+	padding-bottom:6px;	
+}
+
+.showblock li a{
+	font-size:16px;
+	color:black;
+	margin-left:5px;		
+}
+
+.showblock li a:hover{
+	text-decoration:underline;
+	color:#009933;	
+}

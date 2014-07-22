@@ -1,0 +1,157 @@
+[ 2014-05-17T13:14:40+08:00 ] 127.0.0.1 /wzd/index.php/askreport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Askreport
+
+[ 2014-05-17T13:15:15+08:00 ] 127.0.0.1 /wzd/index.php/askreport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+ERR: 无法加载模块:Askreport
+
+[ 2014-05-17T13:15:16+08:00 ] 127.0.0.1 /wzd/index.php/askreport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载模块:Askreport
+
+[ 2014-05-17T13:15:35+08:00 ] 127.0.0.1 /wzd/index.php/askreport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+ERR: 无法加载模块:Askreport
+
+[ 2014-05-17T13:16:14+08:00 ] 127.0.0.1 /wzd/index.php/askreport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+ERR: 无法加载模块:Askreport
+
+[ 2014-05-17T13:16:50+08:00 ] 127.0.0.1 /wzd/index.php/askreport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载模块:Askreport
+
+[ 2014-05-17T13:29:27+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+
+[ 2014-05-17T13:32:48+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.002987s ]
+NOTIC: [8] Undefined variable: id E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 6 行.
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1) [ RunTime:0.010220s ]
+ERR: 1048:Column 'ask_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1)
+
+[ 2014-05-17T13:34:26+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.003013s ]
+NOTIC: [8] Undefined variable: id E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 6 行.
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1) [ RunTime:0.000279s ]
+ERR: 1048:Column 'ask_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1)
+
+[ 2014-05-17T13:35:03+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.002938s ]
+NOTIC: [8] Undefined variable: id E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 6 行.
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1) [ RunTime:0.000464s ]
+ERR: 1048:Column 'ask_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1)
+
+[ 2014-05-17T13:35:26+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.002922s ]
+NOTIC: [8] Undefined variable: id E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 6 行.
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1) [ RunTime:0.000350s ]
+ERR: 1048:Column 'ask_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1)
+NOTIC: [8] Undefined variable: id E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 9 行.
+
+[ 2014-05-17T13:35:50+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.003223s ]
+NOTIC: [8] Undefined variable: id E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 6 行.
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1) [ RunTime:0.000626s ]
+ERR: 1048:Column 'ask_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1)
+NOTIC: [8] Undefined variable: id E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 9 行.
+
+[ 2014-05-17T13:35:53+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.004066s ]
+NOTIC: [8] Undefined variable: id E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 6 行.
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1) [ RunTime:0.000404s ]
+ERR: 1048:Column 'ask_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (null,1)
+NOTIC: [8] Undefined variable: id E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 9 行.
+
+[ 2014-05-17T13:36:16+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.003164s ]
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (20,1) [ RunTime:0.019255s ]
+NOTIC: [8] Use of undefined constant ask_id - assumed 'ask_id' E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\AskReportAction.class.php 第 9 行.
+
+[ 2014-05-17T13:37:54+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.003292s ]
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (20,1) [ RunTime:0.000670s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (20,1)
+
+[ 2014-05-17T13:37:59+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.003085s ]
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (20,1) [ RunTime:0.001061s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (20,1)
+
+[ 2014-05-17T13:38:11+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.004989s ]
+SQL: SELECT * FROM `wzd_ask_report` WHERE ( ask_id="20" and reporterid="1" ) LIMIT 1   [ RunTime:0.000367s ]
+
+[ 2014-05-17T13:39:57+08:00 ] 127.0.0.1 /wzd/index.php/answers/evaluate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002522s ]
+SQL: SHOW COLUMNS FROM `wzd_answers` [ RunTime:0.003456s ]
+SQL: UPDATE `wzd_answers` SET `useless`=useless+1 WHERE ( id="1" ) [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `wzd_user` [ RunTime:0.004035s ]
+NOTIC: [8] Undefined variable: set E:\lamp\apache\htdocs\wzd\ThinkPHP\Lib\Core\Db.class.php 第 293 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\lamp\apache\htdocs\wzd\ThinkPHP\Lib\Core\Db.class.php 第 293 行.
+SQL: UPDATE `wzd_user` SET  WHERE ( id="1" ) [ RunTime:0.000276s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id="1" )' at line 1
+ [ SQL语句 ] : UPDATE `wzd_user` SET  WHERE ( id="1" )
+
+[ 2014-05-17T13:51:37+08:00 ] 127.0.0.1 /wzd/index.php/askReport/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.002942s ]
+SQL: SELECT * FROM `wzd_ask_report` WHERE ( ask_id="20" and reporterid="1" ) LIMIT 1   [ RunTime:0.000675s ]
+

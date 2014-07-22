@@ -1,0 +1,36 @@
+[ 2014-04-27T16:34:01+08:00 ] 127.0.0.1 /wzd/index.php/Login
+ERR: 无法加载模块:Login
+
+[ 2014-04-27T21:16:16+08:00 ] 127.0.0.1 /wzd/index.php/u_r_l/register.html
+ERR: 无法加载模块:URL
+
+[ 2014-04-27T21:16:32+08:00 ] 127.0.0.1 /wzd/index.php/u_r_l/register.html
+ERR: 无法加载模块:URL
+
+[ 2014-04-27T21:16:41+08:00 ] 127.0.0.1 /wzd/index.php/u_r_l/register.html
+ERR: 无法加载模块:URL
+
+[ 2014-04-27T21:17:45+08:00 ] 127.0.0.1 /wzd/index.php/u_r_l/register.html
+ERR: 无法加载模块:URL
+
+[ 2014-04-27T21:19:52+08:00 ] 127.0.0.1 /wzd/index.php//127.0.0.1/wzd/index.php/public/register.html
+ERR: 无法加载模块:127.0.0.1
+
+[ 2014-04-27T23:54:41+08:00 ] 127.0.0.1 /wzd/index.php/Index/index
+ERR: Action:_initialize您所请求的方法不存在！
+
+[ 2014-04-27T23:55:00+08:00 ] 127.0.0.1 /wzd/index.php/Index/index
+ERR: Action:_initialize您所请求的方法不存在！
+
+[ 2014-04-27T23:55:26+08:00 ] 127.0.0.1 /wzd/index.php/Index/index
+ERR: Action:_initialize您所请求的方法不存在！
+
+[ 2014-04-27T23:55:27+08:00 ] 127.0.0.1 /wzd/index.php/Index/index
+ERR: Action:_initialize您所请求的方法不存在！
+
+[ 2014-04-27T23:55:28+08:00 ] 127.0.0.1 /wzd/index.php/Index/index
+ERR: Action:_initialize您所请求的方法不存在！
+
+[ 2014-04-27T23:55:28+08:00 ] 127.0.0.1 /wzd/index.php/Index/index
+ERR: Action:_initialize您所请求的方法不存在！
+

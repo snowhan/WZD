@@ -1,0 +1,36 @@
+[ 2014-01-31T16:05:31+08:00 ] 127.0.0.1 /mobius/index.php/
+ERR: 模板不存在[./Mobius/Lib/Widget/LatestRequest/request.html]
+
+[ 2014-01-31T16:05:32+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/jquery.js
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2014-01-31T16:05:32+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/loadcss.js
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2014-01-31T17:53:16+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/loadcss.js
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2014-01-31T17:53:16+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/jquery.js
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2014-01-31T17:54:29+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/loadcss.js
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2014-01-31T17:54:29+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/jquery.js
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2014-01-31T17:58:13+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/jquery.js
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2014-01-31T17:58:13+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/loadcss.js
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2014-01-31T21:59:13+08:00 ] 127.0.0.1 /mobius/index.php/
+ERR: 实例化一个不存在的类！:PaetnerWidget
+
+[ 2014-01-31T21:59:13+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/jquery.js
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2014-01-31T21:59:13+08:00 ] 127.0.0.1 /mobius/index.php/__PUBLIC__/js/loadcss.js
+ERR: 无法加载模块:__PUBLIC__
+

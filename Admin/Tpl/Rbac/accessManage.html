@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <a href="<{:U('Rbac/role_list')}>">返回</a>
+            <if condition="$node!=false">
+                <form action='<{:U("Rbac/accessManage")}>' method="post">
+                <foreach name='node' item='app'>
+                    <div>
+                        <{$app.title}><input type='checkbox' value="<{$app.id}>_1" name="access[]" <if condition="$app['access']">checked='checked'</if>><br>
+                    </div>
+                    <br>
+                    <foreach name='app.child' item='action'>
+                        <{$action.title}><input type="checkbox" name='access[]' value="<{$action.id}>_2" <if condition="$action['access']">checked='checked'</if>><br>
+                        <foreach name='action.child' item='method'>
+                            <{$method.title}><input type='checkbox' name="access[]" value="<{$method.id}>_3" <if condition="$method['access']">checked='checked'</if>><br>
+                        </foreach>
+                        <br><br><br>
+                    </foreach>
+
+                </foreach>
+                    <input type="hidden" value="<{$role_id}>" name="role_id">
+
+                    <input type='submit' value="保存">
+
+                </form>
+            </if>
+        </div>
+    </body>
+</html>

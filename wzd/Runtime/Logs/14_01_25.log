@@ -1,0 +1,51 @@
+[ 2014-01-25T19:33:47+08:00 ] 127.0.0.1 //mobius/index.php/Tpl/Default/Public/header.htm
+ERR: 无法加载模块:Tpl
+
+[ 2014-01-25T19:34:12+08:00 ] 127.0.0.1 /mobius/index.php/Tpl/Default/Public/header.htm
+ERR: 无法加载模块:Tpl
+
+[ 2014-01-25T19:34:37+08:00 ] 127.0.0.1 /mobius/index.php/Tpl
+ERR: 无法加载模块:Tpl
+
+[ 2014-01-25T19:35:14+08:00 ] 127.0.0.1 /mobius/index.php/Mobius
+ERR: 无法加载模块:Mobius
+
+[ 2014-01-25T19:35:44+08:00 ] 127.0.0.1 /mobius/index.php/Mobius
+ERR: 无法加载模块:Mobius
+
+[ 2014-01-25T21:04:13+08:00 ] 127.0.0.1 /mobius/index.php/Index/index
+ERR: 模板不存在[./Mobius/Lib/Widget/Test/Test.html]
+
+[ 2014-01-25T21:04:13+08:00 ] 127.0.0.1 /mobius/index.php/Index/__PUBLIC__/css/layout_index.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2014-01-25T21:05:58+08:00 ] 127.0.0.1 /mobius/index.php/Index/index
+ERR: 模板不存在[./Mobius/Lib/Widget/Test/Test.html]
+
+[ 2014-01-25T21:05:58+08:00 ] 127.0.0.1 /mobius/index.php/Index/__PUBLIC__/css/layout_index.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2014-01-25T21:06:16+08:00 ] 127.0.0.1 /mobius/index.php/Index/index
+ERR: 模板不存在[./Mobius/Lib/Widget/Test/Test.html]
+
+[ 2014-01-25T21:06:16+08:00 ] 127.0.0.1 /mobius/index.php/Index/__PUBLIC__/css/layout_index.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2014-01-25T21:07:54+08:00 ] 127.0.0.1 /mobius/index.php/Index/index
+ERR: 模板不存在[./Mobius/Lib/Widget/Test/Test.html]
+
+[ 2014-01-25T21:07:54+08:00 ] 127.0.0.1 /mobius/index.php/Index/__PUBLIC__/css/layout_index.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2014-01-25T21:07:57+08:00 ] 127.0.0.1 /mobius/index.php/Index/index
+ERR: 模板不存在[./Mobius/Lib/Widget/Test/Test.html]
+
+[ 2014-01-25T21:07:57+08:00 ] 127.0.0.1 /mobius/index.php/Index/__PUBLIC__/css/layout_index.css
+ERR: 非法操作:__PUBLIC__
+
+[ 2014-01-25T23:08:47+08:00 ] 127.0.0.1 /mobius/index.php
+ERR: 模板不存在[./Mobius/Lib/Widget/Menu/Menu.html]
+
+[ 2014-01-25T23:57:45+08:00 ] 127.0.0.1 /mobius/index.php
+ERR: 实例化一个不存在的类！:Test/indexWidget
+

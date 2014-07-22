@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+.nav{
+	width:100%;	
+	height:36px;	
+	font-weight:bold;
+	line-height:36px;
+	text-align:center;	
+}
+
+.navhead{
+	width:6px;
+	height:100%;
+	background:url("/mobius/Public/img/mobius/linux_bg.jpg") 0 0;
+	
+}
+
+.navtail{
+	width:6px;
+	height:100%;
+	background:url("/mobius/Public/img/mobius/linux_bg.jpg") 0 -72px;	
+}
+.#topul{		
+	width:948px;
+	height:100%;
+	background:url("/mobius/Public/img/mobius/linux_bg.jpg") 0 -122px;
+	float:left;
+}
+
+.topul li{	
+	float:left;	
+}
+
+.topul a{
+	color:green;
+	margin-left:10px;	
+}
+
+.topul a:hover{	
+	color:red;
+	cursor:pointer	
+}
+
+.showli ul{
+	postion:absolute;	
+	width:100px;
+	height:300px;
+	border:1px solid red;
+	z-index:1000;	
+}
+

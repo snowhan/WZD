@@ -1,0 +1,32 @@
+<script>//自动加载css,js
+headload(['__PUBLIC__/css/mobius/article.css']);
+</script>
+<div class="con">
+		<div class="left fl">
+			<div class="art">
+				<div class="arttitle"><span>简介:<{$article['aalias']}></span>
+					<span style="float:right">所在地:<{$article['province']}></span>
+				</div>
+				<div class="artcon"><{$article['introtext']}></div>
+				<div class="artstatus">
+					<div class="fl">
+					<span class="artnow">当前状态:<if condition="($article['status'] eq 0)">未解决
+					<elseif condition="$article['status'] eq 1"/>待解决
+					<else/>暂停				
+					</if></span>					
+					<span>浏览次数:<{$article['hits']}></span>
+					</div>
+					<div style="float:right">			
+					<span>信息发布时间:<{$article['publish_up']}></span>
+					<span>审核通过时间:<{$article['publish_down']}></span>
+					<a href="__APP__/Index/contact"><input type="button" value="联系我们"></a>									
+					</div>			
+				</div>
+			</div>		
+		</div>
+		<div class="right">
+			<volist name="right" id="mods2">
+			<{:W($mods2['module'],$mods2)}>						
+			</volist>
+		</div>
+</div>

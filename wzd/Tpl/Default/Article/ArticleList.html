@@ -1,0 +1,43 @@
+<script>//自动加载css,js
+headload(['__PUBLIC__/css/mobius/article/articlelist.css']);
+</script>
+<div class="con">
+		<div class="left fl">
+			<div class="list">
+				<div class="listheader">
+					<a href="__URL__/articleList/type/new" <eq name="select" value="new">class="selecta"</eq>><span>最新发布</span></a>
+					<a href="__URL__/articleList/type/hot" <eq name="select" value="hot">class="selecta"</eq>><span>热门项目</span></a>
+					<a href="__URL__/articleList/type/progress" <eq name="select" value="progress">class="selecta"</eq>><span>最新进展</span></a>															
+				</div>
+				<ul>
+				<li class="firstli">
+					<span class="listfirst">标题</span>
+					<span class="listsecond" style="font-size:14px;">需求描述</span>
+					<span class="listthird">所在地</span>
+					<span class="listforth">状态</span>
+					<span class="listfifth">审核</span>
+				</li>
+				<volist name="articles" id="arts">
+					<li>
+						<span class="listfirst"><i class="listarrow"></i><a href="<{:U('Article/view?id='.$arts['aid'])}>"><{$arts['atitle']}></a></span>
+						<span class="listsecond"><{$arts['aalias']}></span>
+						<span class="listthird"><{$arts['province']}></span>
+						<span class="listforth">						
+						<if condition="($arts['status'] eq 0)"><img class="listforth" src="__PUBLIC__/img/mobius/article/icn_time.gif">
+						<elseif condition="$arts['status'] eq 1"/><img class="listforth" src="__PUBLIC__/img/mobius/article/failure.gif">
+						<else/><img class="listforth" src="__PUBLIC__/img/mobius/article/status1.jpg">
+						</if>
+						</span>
+						<span class="listfifth"><{$arts['publish_up']}></span>
+					</li>
+				</volist>
+				</ul>
+			</div>
+			<div class="page"><{$show}></div>
+		</div>
+		<div class="right">
+			<volist name="right" id="mods2">
+			<{:W($mods2['module'],$mods2)}>						
+			</volist>
+		</div>
+</div>

@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+.arttitle{
+	width:auto;
+	height:20px;
+	background: none repeat scroll 0 0 #74B500;
+	padding:10px;	
+}
+
+.arttitle span{
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	line-height:20px;	
+}
+	
+.artcon{
+	width:100%;
+	height:auto;
+	min-height:600px;
+}
+
+.artstatus{
+	width:auto;	
+	height:200px;	
+	border-top:1px dashed #D4D4D4;
+	padding:20px;	
+}
+
+.artstatus span{	
+	font-size:12px;
+	margin-bottom:10px;
+	display:block;	
+}
+
+.artstatus input{
+	cursor:pointer;
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+	display:block;
+	width:180px;
+	height:55px;
+	background:url('/mobius/Public/img/mobius/contactus.jpg');	
+}
+
+.artnow{
+	color: #FF6600;
+}

@@ -1,0 +1,177 @@
+[ 2014-05-14T16:30:20+08:00 ] 127.0.0.1 /wzd/index.php/Index/askinfo
+ERR: 模板不存在[./Wzd/Tpl/Default/Index/askinfo.html]
+
+[ 2014-05-14T16:52:29+08:00 ] 127.0.0.1 /wzd/index.php/ask/askinfo.html
+ERR: 非法操作:askinfo
+
+[ 2014-05-14T16:52:37+08:00 ] 127.0.0.1 /wzd/index.php/ask/askinfo.html
+ERR: 非法操作:askinfo
+
+[ 2014-05-14T16:53:01+08:00 ] 127.0.0.1 /wzd/index.php/ask/askinfo.html
+ERR: 非法操作:askinfo
+
+[ 2014-05-14T16:54:31+08:00 ] 127.0.0.1 /wzd/index.php/index/a
+ERR: 非法操作:a
+
+[ 2014-05-14T16:55:50+08:00 ] 127.0.0.1 /wzd/index.php/ask/askinfo.html
+ERR: 非法操作:askinfo
+
+[ 2014-05-14T18:43:24+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+
+[ 2014-05-14T18:43:41+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+
+[ 2014-05-14T18:43:59+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+
+[ 2014-05-14T18:45:00+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+
+[ 2014-05-14T18:45:43+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+
+[ 2014-05-14T18:45:57+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+
+[ 2014-05-14T19:19:39+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+
+[ 2014-05-14T19:26:58+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+
+[ 2014-05-14T20:01:53+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003335s ]
+
+[ 2014-05-14T20:02:09+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+
+[ 2014-05-14T20:03:30+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003206s ]
+
+[ 2014-05-14T20:04:43+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+
+[ 2014-05-14T20:10:02+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002928s ]
+
+[ 2014-05-14T20:14:02+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002811s ]
+
+[ 2014-05-14T20:29:46+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002744s ]
+
+[ 2014-05-14T20:31:51+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+
+[ 2014-05-14T20:31:56+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+
+[ 2014-05-14T20:32:49+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002257s ]
+
+[ 2014-05-14T20:34:21+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+
+[ 2014-05-14T20:34:38+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002366s ]
+
+[ 2014-05-14T20:53:03+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004761s ]
+
+[ 2014-05-14T20:56:06+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002835s ]
+
+[ 2014-05-14T20:56:08+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002413s ]
+
+[ 2014-05-14T20:56:20+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+
+[ 2014-05-14T21:04:56+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `wzd_answer` [ RunTime:0.002802s ]
+ERR: 1146:Table 'wzd2.wzd_answer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wzd_answer`
+SQL: INSERT INTO `wzd_answer` (`answer`,`uid`,`ask_id`) VALUES ('非法定发v','1','20') [ RunTime:0.000528s ]
+ERR: 1146:Table 'wzd2.wzd_answer' doesn't exist
+ [ SQL语句 ] : INSERT INTO `wzd_answer` (`answer`,`uid`,`ask_id`) VALUES ('非法定发v','1','20')
+
+[ 2014-05-14T21:06:00+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'RPC' is invalid E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\CommonAction.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wzd_answer` [ RunTime:0.002788s ]
+ERR: 1146:Table 'wzd2.wzd_answer' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wzd_answer`
+SQL: INSERT INTO `wzd_answer` (`answer`,`uid`,`ask_id`,`createtime`) VALUES ('非法定发v','1','20','2014-05-14 21:06:00') [ RunTime:0.000913s ]
+ERR: 1146:Table 'wzd2.wzd_answer' doesn't exist
+ [ SQL语句 ] : INSERT INTO `wzd_answer` (`answer`,`uid`,`ask_id`,`createtime`) VALUES ('非法定发v','1','20','2014-05-14 21:06:00')
+
+[ 2014-05-14T21:07:40+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'RPC' is invalid E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\CommonAction.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wzd_answers` [ RunTime:0.003783s ]
+SQL: INSERT INTO `wzd_answers` (`uid`,`ask_id`,`createtime`) VALUES (1,20,'2014-05-14 21:07:40') [ RunTime:0.039642s ]
+
+[ 2014-05-14T21:08:21+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'RPC' is invalid E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\CommonAction.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `wzd_answers` [ RunTime:0.003481s ]
+SQL: INSERT INTO `wzd_answers` (`content`,`uid`,`ask_id`,`createtime`) VALUES ('非法定发v',1,20,'2014-05-14 21:08:21') [ RunTime:0.001828s ]
+

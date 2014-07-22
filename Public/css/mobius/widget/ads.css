@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+.ads{
+	border-bottom:2px solid #FF9900;
+	width:auto;
+	height:352px;
+	background:url('/mobius/Public/img/mobius/ads/ad3.jpg');
+	overflow:hidden;	
+}

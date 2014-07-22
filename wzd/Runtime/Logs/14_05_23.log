@@ -1,0 +1,63 @@
+[ 2014-05-23T12:53:31+08:00 ] 127.0.0.1 /wzd/index.php/answers/evaluate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'RPC' is invalid E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\CommonAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wzd_review` [ RunTime:0.026638s ]
+SQL: SELECT * FROM `wzd_review` WHERE ( uid="1" and type="Array"" and answer_id="13" ) LIMIT 1   [ RunTime:0.008428s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '13" ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wzd_review` WHERE ( uid="1" and type="Array"" and answer_id="13" ) LIMIT 1  
+SQL: INSERT INTO `wzd_review` (`uid`,`answer_id`) VALUES (1,13) [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `wzd_answers` [ RunTime:0.003869s ]
+SQL: UPDATE `wzd_answers` SET `hate`=hate+1 WHERE ( id="13" ) [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `wzd_user` [ RunTime:0.003574s ]
+NOTIC: [8] Undefined variable: set E:\lamp\apache\htdocs\wzd\ThinkPHP\Lib\Core\Db.class.php 第 293 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed E:\lamp\apache\htdocs\wzd\ThinkPHP\Lib\Core\Db.class.php 第 293 行.
+SQL: UPDATE `wzd_user` SET  WHERE ( id="1" ) [ RunTime:0.001055s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id="1" )' at line 1
+ [ SQL语句 ] : UPDATE `wzd_user` SET  WHERE ( id="1" )
+
+[ 2014-05-23T12:53:35+08:00 ] 127.0.0.1 /wzd/index.php/answers/evaluate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'RPC' is invalid E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\CommonAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wzd_review` [ RunTime:0.002777s ]
+SQL: SELECT * FROM `wzd_review` WHERE ( uid="1" and type="Array"" and answer_id="13" ) LIMIT 1   [ RunTime:0.000505s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '13" ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wzd_review` WHERE ( uid="1" and type="Array"" and answer_id="13" ) LIMIT 1  
+NOTIC: [8] Undefined offset:  1 E:\lamp\apache\htdocs\wzd\ThinkPHP\Lib\Core\Db.class.php 第 703 行.
+SQL: INSERT INTO `wzd_review` (`uid`,`type`,`answer_id`) VALUES (1,,13) [ RunTime:0.000106s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '13)' at line 1
+ [ SQL语句 ] : INSERT INTO `wzd_review` (`uid`,`type`,`answer_id`) VALUES (1,,13)
+SQL: SHOW COLUMNS FROM `wzd_answers` [ RunTime:0.004228s ]
+SQL: UPDATE `wzd_answers` SET `praise`=praise+1 WHERE ( id="13" ) [ RunTime:0.070733s ]
+SQL: SHOW COLUMNS FROM `wzd_user` [ RunTime:0.006489s ]
+SQL: UPDATE `wzd_user` SET `praise`=praise+1 WHERE ( id="1" ) [ RunTime:0.005153s ]
+
+[ 2014-05-23T12:57:39+08:00 ] 127.0.0.1 /wzd/index.php/answers/evaluate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+NOTIC: [8] date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'RPC' is invalid E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\CommonAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wzd_review` [ RunTime:0.002958s ]
+SQL: SELECT * FROM `wzd_review` WHERE ( uid="1" and type="Array"" and answer_id="13" ) LIMIT 1   [ RunTime:0.003217s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '13" ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `wzd_review` WHERE ( uid="1" and type="Array"" and answer_id="13" ) LIMIT 1  
+NOTIC: [8] Undefined offset:  1 E:\lamp\apache\htdocs\wzd\ThinkPHP\Lib\Core\Db.class.php 第 703 行.
+SQL: INSERT INTO `wzd_review` (`uid`,`type`,`answer_id`) VALUES (1,,13) [ RunTime:0.001041s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '13)' at line 1
+ [ SQL语句 ] : INSERT INTO `wzd_review` (`uid`,`type`,`answer_id`) VALUES (1,,13)
+SQL: SHOW COLUMNS FROM `wzd_answers` [ RunTime:0.003635s ]
+SQL: UPDATE `wzd_answers` SET `praise`=praise+1 WHERE ( id="13" ) [ RunTime:0.006355s ]
+SQL: SHOW COLUMNS FROM `wzd_user` [ RunTime:0.003520s ]
+SQL: UPDATE `wzd_user` SET `praise`=praise+1 WHERE ( id="1" ) [ RunTime:0.001305s ]
+
+[ 2014-05-23T13:06:10+08:00 ] 127.0.0.1 /wzd/index.php/answers/evaluate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+NOTIC: [8] date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'RPC' is invalid E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\CommonAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wzd_review` [ RunTime:0.002996s ]
+SQL: SELECT * FROM `wzd_review` WHERE ( uid="1" and type="0" and answer_id="13" ) LIMIT 1   [ RunTime:0.000294s ]
+

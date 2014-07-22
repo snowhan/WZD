@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+.partner{
+	border:1px solid #D4D4D4;
+	width:100%;	
+	margin-bottom:10px;	
+}
+
+.partnerlogo{
+	padding:10px;		
+	text-align:center;
+}

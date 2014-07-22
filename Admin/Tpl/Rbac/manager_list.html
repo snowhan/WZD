@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <foreach name='manager' item='v'>
+                <div>
+                    ID:<{$v.id}><br>
+                    用户名:<{$v.username}><br>
+                    用户所属组别:
+                        <if condition="$v['username']==C('RBAC_SUPERADMIN')">
+                            superadmin     |       超级管理员
+                        <else/>
+                            <foreach name="v.role" item="value">
+                                <{$value.name}>     |       <{$value.remark}>
+                            </foreach>
+                        </if>
+                    
+                    <br>
+                    状态:
+                    <if condition="$v['username']!=C('RBAC_SUPERADMIN')">
+                        <if condition='$v["status"]==1'>正常
+                            <else/>禁用
+                        </if>
+                        <a href="<{:U('Rbac/manager_manage',array('uid'=>$v['id']))}>">编辑用户</a>
+                        <br>
+                    <else/>
+                    正常
+                    </if>
+                </div>
+                <br><br>
+            </foreach>
+            <a href="<{:U('Rbac/addManager')}>">添加管理员</a>
+        </div>
+    </body>
+</html>

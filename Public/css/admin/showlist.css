@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+	.rightmain{
+		position:relative;
+		top:0px;
+		left:0px;
+		height:600px;
+	}
+	.tablediv{
+		width:870px;		
+		position:absolute;
+		left:100px;
+		top:80px;	
+	}
+	
+	.tablediv table tr td,.tablediv table th{
+		text-align:center;		
+	}
+	
+	.tablediv a{
+		color:#2CC78F;
+		font-weight:bold;
+	}
+	
+	.tablediv a:hover{
+		color:#FF6600;
+	}
+	
+	.searchtable{
+		width:850px;
+		height:30px;
+		background:white;		
+		position:absolute;
+		left:100px;
+		top:30px;
+		padding:10px;
+		z-index:100;		
+	}
+	.searchtable form{
+		width:100%;
+		height:28px;
+		position:relative;
+	}
+	
+	.searchword{
+		width:200px;
+		height:100%;
+		border: 1px solid #999999;    	
+    	border-radius: 2px;
+    	position:absolute;
+    	top:0px;    	
+	}
+	
+	.searchword:focus{
+		border-color:#2f7bbf;
+		box-shadow:0 0 8px rgba(47, 123, 191, 0.5);
+		outline:medium none;
+	}	
+	
+	.newselect{
+		width:150px;
+		position:absolute;
+    	top:0px;
+    	left:210px;
+    	height:100%;
+    	z-index:100;
+	}
+	
+	.newselect select{
+		width:80px;
+		height:100%;
+	}
+	
+	.searchbutton{			   	   
+	    border-radius: 15px;
+	    box-shadow: 0 4px 2px -2px #999999, 0 1px rgba(255, 255, 255, 0.5) inset;	  
+	    cursor: pointer;
+	    float: left;
+	    font-size: 16px;
+	    font-weight: 700;
+	    height: 30px;
+	    line-height: 30px;	    
+	    padding-left: 28px;
+	    text-align: left;
+	    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	    vertical-align: middle;
+	    width: 101px;	    
+	}
+	
+	.searchsubmit{
+		color: #004400;
+		border: 1px solid #006100;
+		background-color: #2CC78F;
+	    background-image: -moz-linear-gradient(center top , #2CC78F, #2CC78F);
+		position:absolute;
+	    left:300px;
+	    z-index:999;	    
+	}
+	.searchsubmit:hover{
+		background-color:#00DA00;
+		background-image: -moz-linear-gradient(center top , #00DA00, #00DA00);
+	}
+	
+	.searchreset{
+		position:absolute;
+	    left:405px;		
+	    background-image: -moz-linear-gradient(center top , #CCCCCC, #999999);
+    	border: 1px solid #666666;	   
+	}
+			
+	.searchreset:hover{
+		background-color:#DDDDDD;
+		background-image: -moz-linear-gradient(center top , #DDDDDD, #AAAAAA);
+	}
+	
+	.tablechoose{
+		width:750px;
+		height:30px;	
+		position:absolute;		
+	}
+			
+	.searchall{
+		position:relative;
+		left:0px;
+		color: #004400;
+		border: 1px solid #006100;
+		background-color: #2CC78F;
+	    background-image: -moz-linear-gradient(center top , #2CC78F, #2CC78F);
+	}	
+	.searchall:hover{		
+		background-color:#00DA00;
+		background-image: -moz-linear-gradient(center top , #00DA00, #00DA00);
+	}
+		
+	.searchreall{
+		position:relative;
+		left:10px;
+		color: #004400;
+		border: 1px solid #006100;
+		background-color: #2CC78F;
+	    background-image: -moz-linear-gradient(center top , #2CC78F, #2CC78F);
+	}
+	.searchreall:hover{		
+		background-color:#00DA00;
+		background-image: -moz-linear-gradient(center top , #00DA00, #00DA00);
+	}
+	
+	.searchadd{
+		position:relative;
+		left:20px;
+		color: #004400;
+		border: 1px solid #006100;
+		background-color: #2CC78F;
+	    background-image: -moz-linear-gradient(center top , #2CC78F, #2CC78F);
+	}
+	.searchadd:hover{		
+		background-color:#00DA00;
+		background-image: -moz-linear-gradient(center top , #00DA00, #00DA00);
+	}	
+	
+	.searchdel{
+		position:relative;
+	    left:30px;		
+	    background-image: -moz-linear-gradient(center top , #CCCCCC, #999999);
+    	border: 1px solid #666666;
+	}
+	.searchdel:hover{		
+		background-color:#DDDDDD;
+		background-image: -moz-linear-gradient(center top , #DDDDDD, #AAAAAA);
+	}	

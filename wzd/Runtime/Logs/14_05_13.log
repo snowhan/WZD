@@ -1,0 +1,6 @@
+[ 2014-05-13T22:32:07+08:00 ] 127.0.0.1 /wzd/index.php/ask/add
+ERR: 模板不存在[./Wzd/Tpl/Default/Ask/add.html]
+
+[ 2014-05-13T22:32:36+08:00 ] 127.0.0.1 /wzd/index.php/ask/add
+ERR: 模板不存在[./Wzd/Tpl/Default/Public/index.html]
+

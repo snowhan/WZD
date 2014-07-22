@@ -1,0 +1,24 @@
+.login_container{
+    background: url(../img/login_background.png) no-repeat fixed center;
+    .login_book{
+        margin-top: 200px;
+	    height: 330px;
+	    .login_title{
+            margin-top: -290px;
+	        margin-left: 100px;
+	    }
+	    .register_title{
+	        margin-top: -50px;
+	        margin-left: 300px
+	    }
+	    .login_form{
+	        margin-left: -40px;
+	        margin-top: 30px;
+	        display: none;
+	    }
+	    .register_form{
+	        margin-left: -40px;
+	        margin-top: 30px;
+	    }
+    }
+}

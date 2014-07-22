@@ -1,0 +1,24 @@
+[ 2014-06-07T16:18:09+08:00 ] 127.0.0.1 /wzd/admin.php
+ERR: 无法加载模块:Index
+
+[ 2014-06-07T16:21:32+08:00 ] 127.0.0.1 /wzd/admin.php/public/checkLogin.html
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2014-06-07T16:23:30+08:00 ] 127.0.0.1 /wzd/admin.php/public/checkLogin.html
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2014-06-07T16:27:39+08:00 ] 127.0.0.1 /wzd/admin.php/public/checkLogin.html
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2014-06-07T16:28:57+08:00 ] 127.0.0.1 /wzd/admin.php/public/checkLogin.html
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2014-06-07T16:29:26+08:00 ] 127.0.0.1 /wzd/admin.php/Rbac
+ERR: 非法操作:index
+
+[ 2014-06-07T16:30:46+08:00 ] 127.0.0.1 /wzd/admin.php/public/test
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2014-06-07T16:41:37+08:00 ] 127.0.0.1 /wzd/admin.php/public/main
+ERR: XML标签语法错误 : $info as $k =
+

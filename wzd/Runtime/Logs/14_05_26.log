@@ -1,0 +1,97 @@
+[ 2014-05-26T11:08:09+08:00 ] 127.0.0.1 /wzd/index.php/answers/evaluate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] date_default_timezone_set(): Timezone ID 'RPC' is invalid D:\web\wzd\wzd\Lib\Action\CommonAction.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web\wzd\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wzd_review` [ RunTime:0.003107s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\web\wzd\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `wzd_review` WHERE ( uid="1" and type="0" and answer_id="14" ) LIMIT 1   [ RunTime:0.000298s ]
+NOTIC: [8] Undefined offset: 1 D:\web\wzd\ThinkPHP\Lib\Core\Db.class.php 第 703 行.
+SQL: INSERT INTO `wzd_review` (`uid`,`type`,`answer_id`) VALUES (1,,14) [ RunTime:0.016931s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '14)' at line 1
+ [ SQL语句 ] : INSERT INTO `wzd_review` (`uid`,`type`,`answer_id`) VALUES (1,,14)
+SQL: SHOW COLUMNS FROM `wzd_answers` [ RunTime:0.002732s ]
+SQL: UPDATE `wzd_answers` SET `praise`=praise+1 WHERE ( id="14" ) [ RunTime:0.050133s ]
+SQL: SHOW COLUMNS FROM `wzd_user` [ RunTime:0.008371s ]
+SQL: UPDATE `wzd_user` SET `praise`=praise+1 WHERE ( id="1" ) [ RunTime:0.030725s ]
+
+[ 2014-05-26T11:09:32+08:00 ] 127.0.0.1 /wzd/index.php/report/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] date_default_timezone_set(): Timezone ID 'RPC' is invalid D:\web\wzd\wzd\Lib\Action\CommonAction.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web\wzd\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.003189s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\web\wzd\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `wzd_ask_report` WHERE ( ask_id="24" and reporterid="1" ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (24,1) [ RunTime:0.023449s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (24,1)
+
+[ 2014-05-26T11:09:41+08:00 ] 127.0.0.1 /wzd/index.php/focus/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] date_default_timezone_set(): Timezone ID 'RPC' is invalid D:\web\wzd\wzd\Lib\Action\CommonAction.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web\wzd\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wzd_focus_asklist` [ RunTime:0.002546s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\web\wzd\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `wzd_focus_asklist` WHERE ( focusid="24" and uid="1" ) LIMIT 1   [ RunTime:0.009128s ]
+
+[ 2014-05-26T11:09:43+08:00 ] 127.0.0.1 /wzd/index.php/focus/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] date_default_timezone_set(): Timezone ID 'RPC' is invalid D:\web\wzd\wzd\Lib\Action\CommonAction.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web\wzd\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wzd_focus_asklist` [ RunTime:0.002762s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\web\wzd\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `wzd_focus_asklist` WHERE ( focusid="24" and uid="1" ) LIMIT 1   [ RunTime:0.000315s ]
+
+[ 2014-05-26T11:09:45+08:00 ] 127.0.0.1 /wzd/index.php/report/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] date_default_timezone_set(): Timezone ID 'RPC' is invalid D:\web\wzd\wzd\Lib\Action\CommonAction.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web\wzd\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wzd_ask_report` [ RunTime:0.002800s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\web\wzd\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `wzd_ask_report` WHERE ( ask_id="24" and reporterid="1" ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (24,1) [ RunTime:0.000199s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `wzd_ask_report` (`ask_id`,`reporterid`) VALUES (24,1)
+
+[ 2014-05-26T11:09:47+08:00 ] 127.0.0.1 /wzd/index.php/focus/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] date_default_timezone_set(): Timezone ID 'RPC' is invalid D:\web\wzd\wzd\Lib\Action\CommonAction.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web\wzd\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wzd_focus_asklist` [ RunTime:0.002737s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\web\wzd\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `wzd_focus_asklist` WHERE ( focusid="24" and uid="1" ) LIMIT 1   [ RunTime:0.000305s ]
+
+[ 2014-05-26T11:09:57+08:00 ] 127.0.0.1 /wzd/index.php/answers/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] date_default_timezone_set(): Timezone ID 'RPC' is invalid D:\web\wzd\wzd\Lib\Action\CommonAction.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web\wzd\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wzd_answers` [ RunTime:0.003924s ]
+SQL: INSERT INTO `wzd_answers` (`content`,`uid`,`ask_id`,`createtime`,`anonymous`) VALUES ('13213',1,24,'2014-05-26 11:09:57',0) [ RunTime:0.069685s ]
+SQL: SHOW COLUMNS FROM `wzd_user` [ RunTime:0.003069s ]
+SQL: UPDATE `wzd_user` SET `answers`=answers+1 WHERE ( id="1" ) [ RunTime:0.051884s ]
+SQL: SHOW COLUMNS FROM `wzd_asks` [ RunTime:0.003184s ]
+SQL: UPDATE `wzd_asks` SET `replys`=replys+1 WHERE ( id="24" ) [ RunTime:0.051921s ]
+
+[ 2014-05-26T11:10:23+08:00 ] 127.0.0.1 /wzd/index.php/focus/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] date_default_timezone_set(): Timezone ID 'RPC' is invalid D:\web\wzd\wzd\Lib\Action\CommonAction.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\web\wzd\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wzd_focus_asklist` [ RunTime:0.007308s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\web\wzd\ThinkPHP\Lib\Core\Db.class.php 第 604 行.
+SQL: SELECT * FROM `wzd_focus_asklist` WHERE ( focusid="24" and uid="1" ) LIMIT 1   [ RunTime:0.000782s ]
+

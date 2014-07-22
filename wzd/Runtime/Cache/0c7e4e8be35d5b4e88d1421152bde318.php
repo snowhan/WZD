@@ -1,0 +1,74 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+    <head>
+        <title>问之道</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"  charset="UTF-8">
+        <script src="/wzd/Public/js/jquery.js"></script>
+        <!-- Bootstrap -->
+        <link href="/wzd/Public/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/wzd/Public/css/main.css" rel="stylesheet" media="screen">
+        <link href="/wzd/Public/stylesheets/pc.css" rel="stylesheet" media="screen">
+        <script type="text/javascript" src="/wzd/Public/js/js.js"></script>
+    </head>
+    <body>
+        <div class="navigation">
+            <div class="container">
+                <div class="row">
+                    <img src="/wzd/Public/img/nav_logo.png">
+                    <div class="input-append nav_top_serach">
+                        <input class="span2" id="appendedInputButtons" type="text">
+                        <button class="btn" type="button">搜索</button>
+                        <button class="btn" type="button">提问</button>
+                    </div>
+                    <div class="nav_top">
+                        <ul class="nav_top_wrap">
+                            <li class="nav_index_link">
+                                <a href="">首页</a>
+                            </li>
+                            <li class="nav_topic_link">
+                                <a href="">话题</a>
+                            </li>
+                            <li class="nav_explore_link">
+                                <a href="">发现</a>
+                            </li>
+                            <li class="nav_message_link">
+                                <a href="">消息</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_top_profile dropdown-toggle" data-toggle="dropdown">
+                        <a href="">
+                            <span>韩松</span>
+                            <img src="/wzd/Public/img/user_photo.jpg">
+                        </a>
+                        <ul class="dropdown-menu nav_dropdown_menu">
+                            <li><a href="">我的主页</a></li>
+                            <li><a href="">私信</a></li>
+                            <li><a href="">设置</a></li>
+                            <li><a href="">退出</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+
+<div style="height:300px;background-color:#000;">
+这是中间区域主体内容
+</div>
+
+
+            </div>
+        </div>
+    <script src="/wzd/Public/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(".nav_top_profile").mouseover(function(){
+            $(".nav_dropdown_menu").css("display","block");
+        })
+        $(".nav_top_profile").mouseout(function(){
+            $(".nav_dropdown_menu").css("display","none");
+        })
+    </script>
+    </body>
+</html>

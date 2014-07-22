@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <a href="<{:U('Rbac/addNode')}>">添加应用</a>
+            <foreach name='node' item='app'>
+                <div>
+                    <{$app.title}>[<a href="<{:U('Rbac/addNode',array('pid'=>$app['id'],'level'=>2))}>">添加控制器</a>]<br>
+                </div>
+                <br>
+                <foreach name='app.child' item='action'>
+                    <{$action.title}>[<a href="<{:U('Rbac/addNode',array('pid'=>$action['id'],'level'=>3))}>">添加方法</a>]<br>
+                    <foreach name='action.child' item='method'>
+                        
+                        <{$method.title}>&#160;&#160;<if condition="$method['status']!=1"><font style="color: red;">被禁用</font></if>&#160;&#160;[<a href='<{:U("Rbac/node_manage",array("node_id"=>$method["id"]))}>'>修改</a>][<a href="<{:U('Rbac/node_delete',array('node_id'=>$method['id']))}>">删除</a>]<br>
+                    </foreach>
+                    <br><br><br>
+                </foreach>
+            </foreach>
+        </div>
+    </body>
+</html>

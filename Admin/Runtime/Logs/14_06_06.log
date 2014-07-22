@@ -1,0 +1,6 @@
+[ 2014-06-06T00:09:01+08:00 ] 127.0.0.1 /wzd/admin.php
+ERR: 无法加载模块:Index
+
+[ 2014-06-06T00:12:17+08:00 ] 127.0.0.1 /wzd/admin.php/index/index.html
+ERR: 无法加载模块:Index
+

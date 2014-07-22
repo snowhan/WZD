@@ -1,0 +1,30 @@
+[ 2014-02-01T01:03:30+08:00 ] 127.0.0.1 /mobius/index.php/127.0.0.1/mobius/index.php/
+ERR: 无法加载模块:127.0.0.1
+
+[ 2014-02-01T01:04:21+08:00 ] 127.0.0.1 /mobius/index.php/127.0.0.1/mobius/index.php/
+ERR: 无法加载模块:127.0.0.1
+
+[ 2014-02-01T01:04:57+08:00 ] 127.0.0.1 /mobius/index.php/127.0.0.1/mobius/index.php
+ERR: 无法加载模块:127.0.0.1
+
+[ 2014-02-01T01:05:27+08:00 ] 127.0.0.1 /mobius/index.php/Section/View/id=3
+ERR: 无法加载模块:Section
+
+[ 2014-02-01T01:08:42+08:00 ] 127.0.0.1 /mobius/index.php/id/4.html
+ERR: 无法加载模块:id
+
+[ 2014-02-01T01:12:35+08:00 ] 127.0.0.1 /mobius/index.php/Article/view/id/4.html
+ERR: 模板不存在[./Mobius/Tpl/Default/Article/view.html]
+
+[ 2014-02-01T12:23:31+08:00 ] 127.0.0.1 /mobius/index.php/Article/view/id/4.html
+ERR: Action:dberror您所请求的方法不存在！
+
+[ 2014-02-01T12:23:39+08:00 ] 127.0.0.1 /mobius/index.php/Article/view/id/4.html
+ERR: Action:dbError您所请求的方法不存在！
+
+[ 2014-02-01T12:23:41+08:00 ] 127.0.0.1 /mobius/index.php/Article/view/id/4.html
+ERR: Action:dbError您所请求的方法不存在！
+
+[ 2014-02-01T12:23:57+08:00 ] 127.0.0.1 /mobius/index.php/Article/view/id/4.html
+ERR: Action:getDbError您所请求的方法不存在！
+

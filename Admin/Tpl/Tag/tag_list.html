@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+        <if condition="$tags==null">
+                暂无标签
+                <else/>
+            <foreach name="tags" item="v">
+                <div>
+                    标签ID：<{$v.id}><br>
+                    创建者：<{$v.user.username}><br>
+                    标签名：<{$v.tagname}><br>
+                    <a href="<{:U('Tag/tag_delete',array('tag_id'=>$v['id']))}>">删除</a><br>
+                </div>
+                <hr/>
+            </foreach>
+            </if>
+        </div>
+    </body>
+</html>

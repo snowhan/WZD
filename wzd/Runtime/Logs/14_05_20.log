@@ -1,0 +1,21 @@
+[ 2014-05-20T10:51:14+08:00 ] 127.0.0.1 /wzd/index.php/login.html
+ERR: 无法加载模块:Login
+
+[ 2014-05-20T10:51:40+08:00 ] 127.0.0.1 /wzd/index.php/login.html
+ERR: 无法加载模块:Login
+
+[ 2014-05-20T10:51:41+08:00 ] 127.0.0.1 /wzd/index.php/login.html
+ERR: 无法加载模块:Login
+
+[ 2014-05-20T10:51:41+08:00 ] 127.0.0.1 /wzd/index.php/login.html
+ERR: 无法加载模块:Login
+
+[ 2014-05-20T11:34:17+08:00 ] 127.0.0.1 /wzd/index.php/focus/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] date_default_timezone_set() [<a href='function.date-default-timezone-set'>function.date-default-timezone-set</a>]: Timezone ID 'RPC' is invalid E:\lamp\apache\htdocs\wzd\Wzd\Lib\Action\CommonAction.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `wzd_focus_asklist` [ RunTime:0.002820s ]
+SQL: SELECT * FROM `wzd_focus_asklist` WHERE ( focusid="23" and uid="1" ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: INSERT INTO `wzd_focus_asklist` (`focusid`,`uid`) VALUES (23,1) [ RunTime:0.001446s ]
+

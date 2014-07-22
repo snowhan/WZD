@@ -1,0 +1,171 @@
+@CHARSET "UTF-8";
+input,textarea{
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:900;		
+    	background: none repeat scroll 0 0 #FFFFFF;
+    	border: 1px solid #999999;
+    	border-left:none;
+    	border-radius: 2px;		
+	}
+	
+	input:focus,textarea:focus{
+		border-color:#2f7bbf;
+		box-shadow:0 0 8px rgba(47, 123, 191, 0.5);
+		outline:medium none;		
+	}
+	
+	input{
+		float:left;
+		width:400px;
+		height:33px;
+	}				
+	
+	.configitem{
+		position:absolute;	
+		width:600px;
+		height:600px;
+		left:400px;
+		top:10px;		
+		background:white;
+		padding:20px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		-moz-box-shadow: 0px 2px #CCC;
+		-webkit-box-shadow: 0px 2px #CCC;
+		box-shadow: 0px 2px #CCC;
+		filter: progid:DXImageTransform.Microsoft.Shadow(strength = 2, direction = 180, color = '#CCC');
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 2, Direction = 180, Color = '#CCC')";
+		opacity: 0.94;
+		-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 94);
+		filter: alpha(opacity = 94);		
+	}
+	
+	.configitem ul li{
+		margin-top:10px;
+		width:604px;
+		height:33px;		
+	}
+	
+	.configitem ul li .normalspan{
+		border:1px solid #999999;
+		border-right:none;
+		float:left;
+		text-align:center;
+		display:block;
+		height:33px;
+		width:200px;
+		line-height:33px;
+		color: #E7E7E7;
+		background:#2C2E2D;
+		border-radius:10px 0 0 10px;		
+	}
+	
+	.configitem ul li input[type="radio"]{
+		display:none;
+	}
+	
+	.configitem ul .textareali{		
+		margin-top:10px;
+		height:100px;
+		width:604px;
+	}
+	
+	.textareali textarea{
+		resize:none;
+		width:400px;
+		height:100px;
+		float:left;
+	}
+	
+	.configitem ul .textareali span{
+		height:100px;
+		line-height:100px;
+	}
+	
+	.checkhead{		    
+		height:33px;		  		   
+		width:200px;
+		position:absolute;
+    	left:35px;
+    	top:0;    	   		 
+	}
+	
+	.checktail{
+		display: inline-block;
+   		height: 33px;    	
+    	overflow: hidden;   
+    	width: 200px;
+    	position:absolute;
+    	left:0;
+    	top:0;    	
+	}
+	
+	.openbg{
+		background: url("/mobius/Public/img/admin/checkbox.gif") no-repeat scroll right bottom;			
+	}
+	
+	.opentail{
+		background: url("/mobius/Public/img/admin/checkbox.gif") no-repeat scroll left bottom;			
+	}
+	
+	.closetail{
+		background: url("/mobius/Public/img/admin/checkbox.gif") no-repeat scroll right top;
+	}
+	
+	.closebg{
+		background: url("/mobius/Public/img/admin/checkbox.gif") no-repeat scroll left top;
+	}	
+	
+	#radiobox{		
+		cursor: pointer;
+		height:33px;
+		display:inline-block;
+		width:400px;
+		position:relative;
+		white-space: nowrap;		
+	}
+	
+	#checkmsg{
+		font-size:12px;
+		font-family:none;
+		font-weight:normal;
+		color:white;
+		position:absolute;
+    	left:90px;
+    	top:10px;
+	}
+	
+	.openclose{
+		background:#2C2E2D;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border-radius: 10px 10px 10px 10px;
+		/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+		-moz-box-shadow: 0px 0px 1px #000000;
+		-webkit-box-shadow: 0px 0px 1px #000000;
+		box-shadow: 0px 0px 1px #000000;
+		/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+		opacity: 0.97;
+		-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 97);
+		/*-ms-filter must come before filter*/
+		filter: alpha(opacity = 97);
+		/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+		/*All filters must be placed together*/
+	}
+	
+	.saveset{
+		border:none;
+		display:block;
+		background:url("/mobius/Public/img/admin/test.png") no-repeat;
+		height:38px;
+		width:100px;
+		border-radius:0px;
+		margin-left:130px;
+		margin-top:15px;
+	}
+	
+	.saveset:focus{
+		border-color:none;
+		box-shadow:none;
+	}
